@@ -1,0 +1,41 @@
+# Visual Studio temporary files, build results, and
+# build logs
+*.log
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.rsuser
+*.pdb
+*.opendb
+*.VC.db
+*.sqlite
+*.cache
+*.ilk
+*.tmp
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+
+# IIS Express
+iisexpress/
+.IISExpress/
+~$*.*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish Web Output
+wwwroot/

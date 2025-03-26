@@ -1,0 +1,900 @@
+2025-03-06 11:13:37.011 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:13:37.089 +01:00 [DBG] Hosting starting
+2025-03-06 11:13:37.102 +01:00 [DBG] Middleware loaded
+2025-03-06 11:13:37.104 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16481 B).
+2025-03-06 11:13:37.105 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-03-06 11:13:37.145 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-03-06 11:13:37.231 +01:00 [INF] Now listening on: https://localhost:7270
+2025-03-06 11:13:37.231 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:13:37.231 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:13:37.231 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-06 11:13:37.231 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:13:37.231 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:13:37.231 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:13:37.232 +01:00 [DBG] Hosting started
+2025-03-06 11:13:37.350 +01:00 [DBG] Connection id "0HNASIU7NLTVM" accepted.
+2025-03-06 11:13:37.351 +01:00 [DBG] Connection id "0HNASIU7NLTVM" started.
+2025-03-06 11:13:37.470 +01:00 [DBG] Connection 0HNASIU7NLTVM established using the following protocol: "Tls13"
+2025-03-06 11:13:37.630 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - null null
+2025-03-06 11:13:37.654 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 11:13:37.795 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-06 11:13:37.816 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-06 11:13:37.818 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 null text/html;charset=utf-8 195.8455ms
+2025-03-06 11:13:37.832 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 11:13:37.839 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-03-06 11:13:37.840 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 7.6759ms
+2025-03-06 11:13:38.021 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - null null
+2025-03-06 11:13:38.283 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 261.8468ms
+2025-03-06 11:13:40.646 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - null null
+2025-03-06 11:13:40.647 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-06 11:13:40.648 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-06 11:13:40.649 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 null text/html;charset=utf-8 3.0188ms
+2025-03-06 11:13:40.657 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 11:13:40.661 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-03-06 11:13:40.662 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 4.2277ms
+2025-03-06 11:13:40.719 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - null null
+2025-03-06 11:13:40.725 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.9974ms
+2025-03-06 11:13:43.924 +01:00 [DBG] Connection id "0HNASIU7NLTVN" accepted.
+2025-03-06 11:13:43.924 +01:00 [DBG] Connection id "0HNASIU7NLTVN" started.
+2025-03-06 11:13:43.924 +01:00 [DBG] Connection id "0HNASIU7NLTVO" accepted.
+2025-03-06 11:13:43.925 +01:00 [DBG] Connection id "0HNASIU7NLTVO" started.
+2025-03-06 11:13:43.925 +01:00 [DBG] Connection id "0HNASIU7NLTVN" received FIN.
+2025-03-06 11:13:43.930 +01:00 [DBG] Connection 0HNASIU7NLTVO established using the following protocol: "Tls13"
+2025-03-06 11:13:43.936 +01:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7270/api/cities/1/pointsofinterest/1 - null null
+2025-03-06 11:13:43.937 +01:00 [DBG] DELETE requests are not supported
+2025-03-06 11:13:43.930 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-06 11:13:43.947 +01:00 [DBG] Connection id "0HNASIU7NLTVN" stopped.
+2025-03-06 11:13:43.949 +01:00 [DBG] Connection id "0HNASIU7NLTVN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:13:43.961 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2025-03-06 11:13:43.965 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/PointsOfInterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2025-03-06 11:13:43.965 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:13:43.969 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:13:43.990 +01:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-03-06 11:13:43.992 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 11:13:43.993 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 11:13:43.994 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-06 11:13:43.995 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 11:13:43.995 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-06 11:13:43.997 +01:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-03-06 11:13:43.998 +01:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-03-06 11:13:44.008 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-03-06 11:13:44.010 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-03-06 11:13:44.012 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-03-06 11:13:44.012 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-03-06 11:13:44.012 +01:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-03-06 11:13:44.014 +01:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-03-06 11:13:44.015 +01:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-03-06 11:13:44.015 +01:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2025-03-06 11:13:44.015 +01:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-03-06 11:13:44.015 +01:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-03-06 11:13:44.015 +01:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-03-06 11:13:44.016 +01:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-03-06 11:13:44.021 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-06 11:13:44.023 +01:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 26.0904ms
+2025-03-06 11:13:44.023 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:13:44.025 +01:00 [DBG] Connection id "0HNASIU7NLTVO" completed keep alive response.
+2025-03-06 11:13:44.026 +01:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7270/api/cities/1/pointsofinterest/1 - 204 null null 89.6962ms
+2025-03-06 11:15:53.125 +01:00 [DBG] Connection id "0HNASIU7NLTVM" is closing.
+2025-03-06 11:15:53.129 +01:00 [DBG] Connection id "0HNASIU7NLTVM" is closed. The last processed stream ID was 11.
+2025-03-06 11:15:53.130 +01:00 [DBG] Connection id "0HNASIU7NLTVM" received FIN.
+2025-03-06 11:15:53.130 +01:00 [DBG] Connection id "0HNASIU7NLTVM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:15:53.132 +01:00 [DBG] The connection queue processing loop for 0HNASIU7NLTVM completed.
+2025-03-06 11:15:53.133 +01:00 [DBG] Connection id "0HNASIU7NLTVM" stopped.
+2025-03-06 11:15:55.134 +01:00 [DBG] Connection id "0HNASIU7NLTVO" disconnecting.
+2025-03-06 11:15:55.136 +01:00 [DBG] Connection id "0HNASIU7NLTVO" stopped.
+2025-03-06 11:15:55.136 +01:00 [DBG] Connection id "0HNASIU7NLTVO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:17:54.466 +01:00 [DBG] Connection id "0HNASIU7NLTVP" accepted.
+2025-03-06 11:17:54.466 +01:00 [DBG] Connection id "0HNASIU7NLTVP" started.
+2025-03-06 11:17:54.469 +01:00 [DBG] Connection 0HNASIU7NLTVP established using the following protocol: "Tls13"
+2025-03-06 11:17:54.472 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - null null
+2025-03-06 11:17:54.473 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-06 11:17:54.474 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-06 11:17:54.474 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 null text/html;charset=utf-8 1.4041ms
+2025-03-06 11:17:54.489 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 11:17:54.490 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-03-06 11:17:54.490 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 1.5171ms
+2025-03-06 11:17:54.551 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - null null
+2025-03-06 11:17:54.560 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.9159ms
+2025-03-06 11:17:55.568 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - null null
+2025-03-06 11:17:55.568 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-06 11:17:55.568 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-06 11:17:55.569 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 null text/html;charset=utf-8 0.8853ms
+2025-03-06 11:17:55.580 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 11:17:55.581 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-03-06 11:17:55.581 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 2.6784ms
+2025-03-06 11:17:55.633 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - null null
+2025-03-06 11:17:55.642 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.7621ms
+2025-03-06 11:18:06.010 +01:00 [DBG] Connection id "0HNASIU7NLTVQ" accepted.
+2025-03-06 11:18:06.010 +01:00 [DBG] Connection id "0HNASIU7NLTVQ" started.
+2025-03-06 11:18:06.012 +01:00 [DBG] Connection id "0HNASIU7NLTVQ" received FIN.
+2025-03-06 11:18:06.012 +01:00 [DBG] Connection id "0HNASIU7NLTVR" accepted.
+2025-03-06 11:18:06.012 +01:00 [DBG] Connection id "0HNASIU7NLTVR" started.
+2025-03-06 11:18:06.013 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-06 11:18:06.015 +01:00 [DBG] Connection id "0HNASIU7NLTVQ" stopped.
+2025-03-06 11:18:06.016 +01:00 [DBG] Connection id "0HNASIU7NLTVQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:18:06.018 +01:00 [DBG] Connection 0HNASIU7NLTVR established using the following protocol: "Tls13"
+2025-03-06 11:18:06.019 +01:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7270/api/cities/1/pointsofinterest/2 - null null
+2025-03-06 11:18:06.020 +01:00 [DBG] DELETE requests are not supported
+2025-03-06 11:18:06.020 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:18:06.021 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/PointsOfInterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:18:06.021 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:18:06.021 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:18:06.026 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:18:06.028 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CityInfo.API.Controllers.PointsOfInterestController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-06 11:18:06.049 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-03-06 11:18:06.050 +01:00 [DBG] No information found on request to perform content negotiation.
+2025-03-06 11:18:06.051 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2025-03-06 11:18:06.052 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-03-06 11:18:06.113 +01:00 [DBG] Connection id "0HNASIU7NLTVR" completed keep alive response.
+2025-03-06 11:18:06.113 +01:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7270/api/cities/1/pointsofinterest/2 - 500 409 application/problem+json; charset=utf-8 93.5042ms
+2025-03-06 11:18:40.712 +01:00 [INF] Application is shutting down...
+2025-03-06 11:18:40.713 +01:00 [DBG] Hosting stopping
+2025-03-06 11:18:40.719 +01:00 [DBG] Connection id "0HNASIU7NLTVP" is closing.
+2025-03-06 11:18:40.719 +01:00 [DBG] Connection id "0HNASIU7NLTVR" disconnecting.
+2025-03-06 11:18:40.719 +01:00 [DBG] Connection id "0HNASIU7NLTVP" is closed. The last processed stream ID was 11.
+2025-03-06 11:18:40.720 +01:00 [DBG] Connection id "0HNASIU7NLTVR" stopped.
+2025-03-06 11:18:40.720 +01:00 [DBG] Connection id "0HNASIU7NLTVR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:18:40.720 +01:00 [DBG] The connection queue processing loop for 0HNASIU7NLTVP completed.
+2025-03-06 11:18:40.721 +01:00 [DBG] Connection id "0HNASIU7NLTVP" stopped.
+2025-03-06 11:18:40.721 +01:00 [DBG] Connection id "0HNASIU7NLTVP" received FIN.
+2025-03-06 11:18:40.721 +01:00 [DBG] Connection id "0HNASIU7NLTVP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:18:40.725 +01:00 [DBG] Hosting stopped
+2025-03-06 11:19:07.022 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:19:07.093 +01:00 [DBG] Hosting starting
+2025-03-06 11:19:07.132 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:19:07.134 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:19:07.135 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:19:07.136 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:19:07.137 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:19:07.137 +01:00 [DBG] Hosting started
+2025-03-06 11:19:46.822 +01:00 [DBG] Connection id "0HNASJ1LR7UR6" received FIN.
+2025-03-06 11:19:46.828 +01:00 [DBG] Connection id "0HNASJ1LR7UR6" accepted.
+2025-03-06 11:19:46.829 +01:00 [DBG] Connection id "0HNASJ1LR7UR6" started.
+2025-03-06 11:19:46.832 +01:00 [DBG] Connection id "0HNASJ1LR7UR7" accepted.
+2025-03-06 11:19:46.835 +01:00 [DBG] Connection id "0HNASJ1LR7UR7" started.
+2025-03-06 11:19:46.840 +01:00 [DBG] Connection id "0HNASJ1LR7UR6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:19:46.843 +01:00 [DBG] Connection id "0HNASJ1LR7UR6" disconnecting.
+2025-03-06 11:19:46.844 +01:00 [DBG] Connection id "0HNASJ1LR7UR7" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:19:46.844 +01:00 [DBG] Connection id "0HNASJ1LR7UR6" stopped.
+2025-03-06 11:19:46.863 +01:00 [DBG] Connection id "0HNASJ1LR7UR7" disconnecting.
+2025-03-06 11:19:46.864 +01:00 [DBG] Connection id "0HNASJ1LR7UR7" received FIN.
+2025-03-06 11:19:46.865 +01:00 [DBG] Connection id "0HNASJ1LR7UR7" stopped.
+2025-03-06 11:19:46.871 +01:00 [DBG] Connection id "0HNASJ1LR7UR7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:20:32.519 +01:00 [INF] Application is shutting down...
+2025-03-06 11:20:32.523 +01:00 [DBG] Hosting stopping
+2025-03-06 11:20:32.545 +01:00 [DBG] Hosting stopped
+2025-03-06 11:20:42.234 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:20:42.300 +01:00 [DBG] Hosting starting
+2025-03-06 11:20:42.339 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:20:42.340 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:20:42.342 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:20:42.342 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:20:42.343 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:20:42.344 +01:00 [DBG] Hosting started
+2025-03-06 11:21:04.857 +01:00 [DBG] Connection id "0HNASJ2D3E94J" accepted.
+2025-03-06 11:21:04.860 +01:00 [DBG] Connection id "0HNASJ2D3E94J" started.
+2025-03-06 11:21:04.872 +01:00 [DBG] Connection id "0HNASJ2D3E94K" accepted.
+2025-03-06 11:21:04.873 +01:00 [DBG] Connection id "0HNASJ2D3E94K" started.
+2025-03-06 11:21:04.876 +01:00 [DBG] Connection id "0HNASJ2D3E94J" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:21:04.876 +01:00 [DBG] Connection id "0HNASJ2D3E94K" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:21:04.894 +01:00 [DBG] Connection id "0HNASJ2D3E94J" disconnecting.
+2025-03-06 11:21:04.896 +01:00 [DBG] Connection id "0HNASJ2D3E94J" received FIN.
+2025-03-06 11:21:04.896 +01:00 [DBG] Connection id "0HNASJ2D3E94K" disconnecting.
+2025-03-06 11:21:04.897 +01:00 [DBG] Connection id "0HNASJ2D3E94L" accepted.
+2025-03-06 11:21:04.898 +01:00 [DBG] Connection id "0HNASJ2D3E94J" stopped.
+2025-03-06 11:21:04.898 +01:00 [DBG] Connection id "0HNASJ2D3E94K" received FIN.
+2025-03-06 11:21:04.901 +01:00 [DBG] Connection id "0HNASJ2D3E94K" stopped.
+2025-03-06 11:21:04.903 +01:00 [DBG] Connection id "0HNASJ2D3E94L" started.
+2025-03-06 11:21:04.904 +01:00 [DBG] Connection id "0HNASJ2D3E94M" accepted.
+2025-03-06 11:21:04.906 +01:00 [DBG] Connection id "0HNASJ2D3E94J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:21:04.907 +01:00 [DBG] Connection id "0HNASJ2D3E94K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:21:04.908 +01:00 [DBG] Connection id "0HNASJ2D3E94L" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:21:04.909 +01:00 [DBG] Connection id "0HNASJ2D3E94M" started.
+2025-03-06 11:21:04.917 +01:00 [DBG] Connection id "0HNASJ2D3E94L" disconnecting.
+2025-03-06 11:21:04.918 +01:00 [DBG] Connection id "0HNASJ2D3E94L" received FIN.
+2025-03-06 11:21:04.918 +01:00 [DBG] Connection id "0HNASJ2D3E94M" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:21:04.920 +01:00 [DBG] Connection id "0HNASJ2D3E94L" stopped.
+2025-03-06 11:21:04.927 +01:00 [DBG] Connection id "0HNASJ2D3E94M" disconnecting.
+2025-03-06 11:21:04.927 +01:00 [DBG] Connection id "0HNASJ2D3E94L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:21:04.928 +01:00 [DBG] Connection id "0HNASJ2D3E94M" received FIN.
+2025-03-06 11:21:04.928 +01:00 [DBG] Connection id "0HNASJ2D3E94M" stopped.
+2025-03-06 11:21:04.935 +01:00 [DBG] Connection id "0HNASJ2D3E94M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:21:12.420 +01:00 [DBG] Connection id "0HNASJ2D3E94N" accepted.
+2025-03-06 11:21:12.422 +01:00 [DBG] Connection id "0HNASJ2D3E94N" started.
+2025-03-06 11:21:12.426 +01:00 [DBG] Connection id "0HNASJ2D3E94N" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:21:12.438 +01:00 [DBG] Connection id "0HNASJ2D3E94N" disconnecting.
+2025-03-06 11:21:12.439 +01:00 [DBG] Connection id "0HNASJ2D3E94N" received FIN.
+2025-03-06 11:21:12.440 +01:00 [DBG] Connection id "0HNASJ2D3E94O" accepted.
+2025-03-06 11:21:12.442 +01:00 [DBG] Connection id "0HNASJ2D3E94N" stopped.
+2025-03-06 11:21:12.445 +01:00 [DBG] Connection id "0HNASJ2D3E94O" started.
+2025-03-06 11:21:12.446 +01:00 [DBG] Connection id "0HNASJ2D3E94N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:21:12.447 +01:00 [DBG] Connection id "0HNASJ2D3E94O" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:21:12.449 +01:00 [DBG] Connection id "0HNASJ2D3E94P" accepted.
+2025-03-06 11:21:12.453 +01:00 [DBG] Connection id "0HNASJ2D3E94O" disconnecting.
+2025-03-06 11:21:12.454 +01:00 [DBG] Connection id "0HNASJ2D3E94P" started.
+2025-03-06 11:21:12.454 +01:00 [DBG] Connection id "0HNASJ2D3E94O" received FIN.
+2025-03-06 11:21:12.455 +01:00 [DBG] Connection id "0HNASJ2D3E94O" stopped.
+2025-03-06 11:21:12.459 +01:00 [DBG] Connection id "0HNASJ2D3E94P" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:21:12.461 +01:00 [DBG] Connection id "0HNASJ2D3E94O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:21:12.468 +01:00 [DBG] Connection id "0HNASJ2D3E94P" disconnecting.
+2025-03-06 11:21:12.468 +01:00 [DBG] Connection id "0HNASJ2D3E94P" received FIN.
+2025-03-06 11:21:12.469 +01:00 [DBG] Connection id "0HNASJ2D3E94Q" accepted.
+2025-03-06 11:21:12.470 +01:00 [DBG] Connection id "0HNASJ2D3E94P" stopped.
+2025-03-06 11:21:12.472 +01:00 [DBG] Connection id "0HNASJ2D3E94Q" started.
+2025-03-06 11:21:12.474 +01:00 [DBG] Connection id "0HNASJ2D3E94P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:21:12.476 +01:00 [DBG] Connection id "0HNASJ2D3E94Q" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:21:12.484 +01:00 [DBG] Connection id "0HNASJ2D3E94Q" disconnecting.
+2025-03-06 11:21:12.485 +01:00 [DBG] Connection id "0HNASJ2D3E94Q" received FIN.
+2025-03-06 11:21:12.485 +01:00 [DBG] Connection id "0HNASJ2D3E94Q" stopped.
+2025-03-06 11:21:12.487 +01:00 [DBG] Connection id "0HNASJ2D3E94Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:22:24.693 +01:00 [DBG] Connection id "0HNASJ2D3E94R" accepted.
+2025-03-06 11:22:24.695 +01:00 [DBG] Connection id "0HNASJ2D3E94R" started.
+2025-03-06 11:22:24.719 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/ - null null
+2025-03-06 11:22:24.724 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 11:22:24.733 +01:00 [DBG] Connection id "0HNASJ2D3E94S" accepted.
+2025-03-06 11:22:24.734 +01:00 [DBG] Connection id "0HNASJ2D3E94S" started.
+2025-03-06 11:22:24.744 +01:00 [DBG] The request path  does not match the path filter
+2025-03-06 11:22:24.747 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-03-06 11:22:24.780 +01:00 [DBG] No candidates found for the request path '/'
+2025-03-06 11:22:24.782 +01:00 [DBG] Request did not match any endpoints
+2025-03-06 11:22:24.787 +01:00 [DBG] Connection id "0HNASJ2D3E94R" completed keep alive response.
+2025-03-06 11:22:24.790 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/ - 404 0 null 71.841ms
+2025-03-06 11:22:24.799 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5210/, Response status code: 404
+2025-03-06 11:22:36.255 +01:00 [DBG] Connection id "0HNASJ2D3E94T" accepted.
+2025-03-06 11:22:36.256 +01:00 [DBG] Connection id "0HNASJ2D3E94T" received FIN.
+2025-03-06 11:22:36.259 +01:00 [DBG] Connection id "0HNASJ2D3E94T" started.
+2025-03-06 11:22:36.260 +01:00 [DBG] Connection id "0HNASJ2D3E94U" accepted.
+2025-03-06 11:22:36.261 +01:00 [DBG] Connection id "0HNASJ2D3E94T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:22:36.262 +01:00 [DBG] Connection id "0HNASJ2D3E94U" started.
+2025-03-06 11:22:36.263 +01:00 [DBG] Connection id "0HNASJ2D3E94T" disconnecting.
+2025-03-06 11:22:36.264 +01:00 [DBG] Connection id "0HNASJ2D3E94U" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:22:36.265 +01:00 [DBG] Connection id "0HNASJ2D3E94T" stopped.
+2025-03-06 11:22:36.269 +01:00 [DBG] Connection id "0HNASJ2D3E94U" disconnecting.
+2025-03-06 11:22:36.269 +01:00 [DBG] Connection id "0HNASJ2D3E94U" received FIN.
+2025-03-06 11:22:36.270 +01:00 [DBG] Connection id "0HNASJ2D3E94U" stopped.
+2025-03-06 11:22:36.272 +01:00 [DBG] Connection id "0HNASJ2D3E94U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:24:17.363 +01:00 [DBG] Connection id "0HNASJ2D3E94S" received FIN.
+2025-03-06 11:24:17.366 +01:00 [DBG] Connection id "0HNASJ2D3E94S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:24:17.370 +01:00 [DBG] Connection id "0HNASJ2D3E94S" disconnecting.
+2025-03-06 11:24:17.374 +01:00 [DBG] Connection id "0HNASJ2D3E94S" stopped.
+2025-03-06 11:24:36.021 +01:00 [DBG] Connection id "0HNASJ2D3E94R" disconnecting.
+2025-03-06 11:24:36.027 +01:00 [DBG] Connection id "0HNASJ2D3E94R" stopped.
+2025-03-06 11:24:36.028 +01:00 [DBG] Connection id "0HNASJ2D3E94R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:25:23.191 +01:00 [INF] Application is shutting down...
+2025-03-06 11:25:23.194 +01:00 [DBG] Hosting stopping
+2025-03-06 11:25:23.211 +01:00 [DBG] Hosting stopped
+2025-03-06 11:25:38.169 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:25:38.243 +01:00 [DBG] Hosting starting
+2025-03-06 11:25:38.250 +01:00 [DBG] Middleware loaded
+2025-03-06 11:25:38.251 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16481 B).
+2025-03-06 11:25:38.252 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-03-06 11:25:38.277 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-03-06 11:25:38.291 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:25:38.291 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:25:38.291 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-06 11:25:38.292 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:25:38.292 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:25:38.292 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:25:38.292 +01:00 [DBG] Hosting started
+2025-03-06 11:25:38.373 +01:00 [DBG] Connection id "0HNASJ4UJSNAD" accepted.
+2025-03-06 11:25:38.374 +01:00 [DBG] Connection id "0HNASJ4UJSNAD" started.
+2025-03-06 11:25:38.406 +01:00 [DBG] Connection id "0HNASJ4UJSNAE" accepted.
+2025-03-06 11:25:38.407 +01:00 [DBG] Connection id "0HNASJ4UJSNAE" started.
+2025-03-06 11:25:38.425 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/swagger - null null
+2025-03-06 11:25:38.457 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 11:25:38.483 +01:00 [DBG] Connection id "0HNASJ4UJSNAD" completed keep alive response.
+2025-03-06 11:25:38.485 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/swagger - 301 0 null 61.7002ms
+2025-03-06 11:25:38.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/swagger/index.html - null null
+2025-03-06 11:25:38.697 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-06 11:25:38.710 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-06 11:25:38.711 +01:00 [DBG] Connection id "0HNASJ4UJSNAD" completed keep alive response.
+2025-03-06 11:25:38.712 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/swagger/index.html - 200 null text/html;charset=utf-8 216.6059ms
+2025-03-06 11:25:38.732 +01:00 [DBG] Connection id "0HNASJ4UJSNAF" accepted.
+2025-03-06 11:25:38.733 +01:00 [DBG] Connection id "0HNASJ4UJSNAG" accepted.
+2025-03-06 11:25:38.733 +01:00 [DBG] Connection id "0HNASJ4UJSNAF" started.
+2025-03-06 11:25:38.734 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-06 11:25:38.737 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/swagger/swagger-ui.css - null null
+2025-03-06 11:25:38.742 +01:00 [DBG] Connection id "0HNASJ4UJSNAG" started.
+2025-03-06 11:25:38.742 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/swagger/swagger-ui-bundle.js - null null
+2025-03-06 11:25:38.743 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 11:25:38.746 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-03-06 11:25:38.746 +01:00 [DBG] Connection id "0HNASJ4UJSNAG" completed keep alive response.
+2025-03-06 11:25:38.747 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 3.6443ms
+2025-03-06 11:25:38.777 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-06 11:25:38.778 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-06 11:25:38.780 +01:00 [DBG] Connection id "0HNASJ4UJSNAD" completed keep alive response.
+2025-03-06 11:25:38.780 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/swagger/swagger-ui.css - 200 152034 text/css 43.5518ms
+2025-03-06 11:25:38.781 +01:00 [DBG] Connection id "0HNASJ4UJSNAF" completed keep alive response.
+2025-03-06 11:25:38.781 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 47.3856ms
+2025-03-06 11:25:38.784 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-06 11:25:38.784 +01:00 [DBG] Connection id "0HNASJ4UJSNAE" completed keep alive response.
+2025-03-06 11:25:38.785 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 42.3747ms
+2025-03-06 11:25:39.008 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/swagger/v1/swagger.json - null null
+2025-03-06 11:25:39.147 +01:00 [DBG] Connection id "0HNASJ4UJSNAE" completed keep alive response.
+2025-03-06 11:25:39.147 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.7894ms
+2025-03-06 11:25:53.951 +01:00 [DBG] Connection id "0HNASJ4UJSNAH" accepted.
+2025-03-06 11:25:53.951 +01:00 [DBG] Connection id "0HNASJ4UJSNAH" started.
+2025-03-06 11:25:53.952 +01:00 [DBG] Connection id "0HNASJ4UJSNAI" accepted.
+2025-03-06 11:25:53.952 +01:00 [DBG] Connection id "0HNASJ4UJSNAI" started.
+2025-03-06 11:25:53.952 +01:00 [DBG] Connection id "0HNASJ4UJSNAH" received FIN.
+2025-03-06 11:25:53.953 +01:00 [DBG] Connection id "0HNASJ4UJSNAH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:25:53.954 +01:00 [DBG] Connection id "0HNASJ4UJSNAH" disconnecting.
+2025-03-06 11:25:53.956 +01:00 [DBG] Connection id "0HNASJ4UJSNAH" stopped.
+2025-03-06 11:25:53.957 +01:00 [DBG] Connection id "0HNASJ4UJSNAI" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:25:53.970 +01:00 [DBG] Connection id "0HNASJ4UJSNAI" disconnecting.
+2025-03-06 11:25:53.970 +01:00 [DBG] Connection id "0HNASJ4UJSNAI" stopped.
+2025-03-06 11:25:53.970 +01:00 [DBG] Connection id "0HNASJ4UJSNAI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:25:57.278 +01:00 [DBG] Connection id "0HNASJ4UJSNAJ" accepted.
+2025-03-06 11:25:57.279 +01:00 [DBG] Connection id "0HNASJ4UJSNAJ" started.
+2025-03-06 11:25:57.279 +01:00 [DBG] Connection id "0HNASJ4UJSNAJ" received FIN.
+2025-03-06 11:25:57.279 +01:00 [DBG] Connection id "0HNASJ4UJSNAK" accepted.
+2025-03-06 11:25:57.279 +01:00 [DBG] Connection id "0HNASJ4UJSNAJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:25:57.280 +01:00 [DBG] Connection id "0HNASJ4UJSNAK" started.
+2025-03-06 11:25:57.280 +01:00 [DBG] Connection id "0HNASJ4UJSNAJ" disconnecting.
+2025-03-06 11:25:57.280 +01:00 [DBG] Connection id "0HNASJ4UJSNAJ" stopped.
+2025-03-06 11:25:57.281 +01:00 [DBG] Connection id "0HNASJ4UJSNAK" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:25:57.284 +01:00 [DBG] Connection id "0HNASJ4UJSNAK" disconnecting.
+2025-03-06 11:25:57.284 +01:00 [DBG] Connection id "0HNASJ4UJSNAK" stopped.
+2025-03-06 11:25:57.284 +01:00 [DBG] Connection id "0HNASJ4UJSNAK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:26:15.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAL" accepted.
+2025-03-06 11:26:15.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAL" started.
+2025-03-06 11:26:15.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAL" received FIN.
+2025-03-06 11:26:15.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAM" accepted.
+2025-03-06 11:26:15.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:26:15.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAM" started.
+2025-03-06 11:26:15.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAL" disconnecting.
+2025-03-06 11:26:15.660 +01:00 [DBG] Connection id "0HNASJ4UJSNAL" stopped.
+2025-03-06 11:26:15.660 +01:00 [DBG] Connection id "0HNASJ4UJSNAM" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:26:15.662 +01:00 [DBG] Connection id "0HNASJ4UJSNAM" disconnecting.
+2025-03-06 11:26:15.662 +01:00 [DBG] Connection id "0HNASJ4UJSNAM" stopped.
+2025-03-06 11:26:15.662 +01:00 [DBG] Connection id "0HNASJ4UJSNAM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:26:18.656 +01:00 [DBG] Connection id "0HNASJ4UJSNAN" accepted.
+2025-03-06 11:26:18.656 +01:00 [DBG] Connection id "0HNASJ4UJSNAN" started.
+2025-03-06 11:26:18.656 +01:00 [DBG] Connection id "0HNASJ4UJSNAN" received FIN.
+2025-03-06 11:26:18.656 +01:00 [DBG] Connection id "0HNASJ4UJSNAO" accepted.
+2025-03-06 11:26:18.656 +01:00 [DBG] Connection id "0HNASJ4UJSNAN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:26:18.657 +01:00 [DBG] Connection id "0HNASJ4UJSNAN" disconnecting.
+2025-03-06 11:26:18.657 +01:00 [DBG] Connection id "0HNASJ4UJSNAO" started.
+2025-03-06 11:26:18.657 +01:00 [DBG] Connection id "0HNASJ4UJSNAN" stopped.
+2025-03-06 11:26:18.657 +01:00 [DBG] Connection id "0HNASJ4UJSNAO" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:26:18.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAO" disconnecting.
+2025-03-06 11:26:18.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAO" stopped.
+2025-03-06 11:26:18.659 +01:00 [DBG] Connection id "0HNASJ4UJSNAO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:26:22.331 +01:00 [DBG] Connection id "0HNASJ4UJSNAP" accepted.
+2025-03-06 11:26:22.332 +01:00 [DBG] Connection id "0HNASJ4UJSNAP" received FIN.
+2025-03-06 11:26:22.332 +01:00 [DBG] Connection id "0HNASJ4UJSNAP" started.
+2025-03-06 11:26:22.333 +01:00 [DBG] Connection id "0HNASJ4UJSNAQ" accepted.
+2025-03-06 11:26:22.333 +01:00 [DBG] Connection id "0HNASJ4UJSNAP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:26:22.333 +01:00 [DBG] Connection id "0HNASJ4UJSNAQ" started.
+2025-03-06 11:26:22.334 +01:00 [DBG] Connection id "0HNASJ4UJSNAP" disconnecting.
+2025-03-06 11:26:22.334 +01:00 [DBG] Connection id "0HNASJ4UJSNAP" stopped.
+2025-03-06 11:26:22.334 +01:00 [DBG] Connection id "0HNASJ4UJSNAQ" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:26:22.337 +01:00 [DBG] Connection id "0HNASJ4UJSNAQ" disconnecting.
+2025-03-06 11:26:22.338 +01:00 [DBG] Connection id "0HNASJ4UJSNAQ" stopped.
+2025-03-06 11:26:22.338 +01:00 [DBG] Connection id "0HNASJ4UJSNAQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:26:37.417 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/api/cities - null null
+2025-03-06 11:26:37.418 +01:00 [DBG] The request path  does not match the path filter
+2025-03-06 11:26:37.419 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-03-06 11:26:37.437 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2025-03-06 11:26:37.441 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2025-03-06 11:26:37.441 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-03-06 11:26:37.443 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-03-06 11:26:37.454 +01:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityDto]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-03-06 11:26:37.455 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 11:26:37.455 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 11:26:37.456 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-06 11:26:37.457 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 11:26:37.457 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-06 11:26:37.458 +01:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2025-03-06 11:26:37.458 +01:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2025-03-06 11:26:37.460 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-03-06 11:26:37.462 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-03-06 11:26:37.465 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-03-06 11:26:37.466 +01:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2025-03-06 11:26:37.468 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-03-06 11:26:37.470 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2025-03-06 11:26:37.471 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-03-06 11:26:37.474 +01:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 14.166ms
+2025-03-06 11:26:37.474 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-03-06 11:26:37.474 +01:00 [DBG] Connection id "0HNASJ4UJSNAE" completed keep alive response.
+2025-03-06 11:26:37.474 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/api/cities - 406 0 null 56.9706ms
+2025-03-06 11:27:03.230 +01:00 [DBG] Connection id "0HNASJ4UJSNAR" received FIN.
+2025-03-06 11:27:03.230 +01:00 [DBG] Connection id "0HNASJ4UJSNAR" accepted.
+2025-03-06 11:27:03.230 +01:00 [DBG] Connection id "0HNASJ4UJSNAR" started.
+2025-03-06 11:27:03.231 +01:00 [DBG] Connection id "0HNASJ4UJSNAR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:27:03.231 +01:00 [DBG] Connection id "0HNASJ4UJSNAS" accepted.
+2025-03-06 11:27:03.231 +01:00 [DBG] Connection id "0HNASJ4UJSNAR" disconnecting.
+2025-03-06 11:27:03.231 +01:00 [DBG] Connection id "0HNASJ4UJSNAR" stopped.
+2025-03-06 11:27:03.232 +01:00 [DBG] Connection id "0HNASJ4UJSNAS" started.
+2025-03-06 11:27:03.232 +01:00 [DBG] Connection id "0HNASJ4UJSNAS" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:27:03.235 +01:00 [DBG] Connection id "0HNASJ4UJSNAS" disconnecting.
+2025-03-06 11:27:03.235 +01:00 [DBG] Connection id "0HNASJ4UJSNAS" stopped.
+2025-03-06 11:27:03.235 +01:00 [DBG] Connection id "0HNASJ4UJSNAS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:27:50.258 +01:00 [DBG] Connection id "0HNASJ4UJSNAD" disconnecting.
+2025-03-06 11:27:50.258 +01:00 [DBG] Connection id "0HNASJ4UJSNAD" stopped.
+2025-03-06 11:27:50.258 +01:00 [DBG] Connection id "0HNASJ4UJSNAF" disconnecting.
+2025-03-06 11:27:50.259 +01:00 [DBG] Connection id "0HNASJ4UJSNAD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:27:50.259 +01:00 [DBG] Connection id "0HNASJ4UJSNAF" stopped.
+2025-03-06 11:27:50.259 +01:00 [DBG] Connection id "0HNASJ4UJSNAG" disconnecting.
+2025-03-06 11:27:50.259 +01:00 [DBG] Connection id "0HNASJ4UJSNAF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:27:50.259 +01:00 [DBG] Connection id "0HNASJ4UJSNAG" stopped.
+2025-03-06 11:27:50.260 +01:00 [DBG] Connection id "0HNASJ4UJSNAG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:28:47.733 +01:00 [DBG] Connection id "0HNASJ4UJSNAE" disconnecting.
+2025-03-06 11:28:47.733 +01:00 [DBG] Connection id "0HNASJ4UJSNAE" stopped.
+2025-03-06 11:28:47.734 +01:00 [DBG] Connection id "0HNASJ4UJSNAE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:30:27.648 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:30:27.711 +01:00 [DBG] Hosting starting
+2025-03-06 11:30:27.745 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:30:27.746 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:30:27.747 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:30:27.748 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:30:27.749 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:30:27.749 +01:00 [DBG] Hosting started
+2025-03-06 11:31:41.415 +01:00 [DBG] Connection id "0HNASJ8AQ4ICM" received FIN.
+2025-03-06 11:31:41.419 +01:00 [DBG] Connection id "0HNASJ8AQ4ICM" accepted.
+2025-03-06 11:31:41.421 +01:00 [DBG] Connection id "0HNASJ8AQ4ICM" started.
+2025-03-06 11:31:41.422 +01:00 [DBG] Connection id "0HNASJ8AQ4ICN" accepted.
+2025-03-06 11:31:41.424 +01:00 [DBG] Connection id "0HNASJ8AQ4ICN" started.
+2025-03-06 11:31:41.430 +01:00 [DBG] Connection id "0HNASJ8AQ4ICM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:31:41.433 +01:00 [DBG] Connection id "0HNASJ8AQ4ICM" disconnecting.
+2025-03-06 11:31:41.435 +01:00 [DBG] Connection id "0HNASJ8AQ4ICM" stopped.
+2025-03-06 11:31:41.449 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5210/api/cities - null null
+2025-03-06 11:31:41.452 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 11:31:41.467 +01:00 [DBG] The request path  does not match the path filter
+2025-03-06 11:31:41.468 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-03-06 11:31:41.486 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2025-03-06 11:31:41.491 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2025-03-06 11:31:41.494 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-03-06 11:31:41.497 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-03-06 11:31:41.509 +01:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityDto]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-03-06 11:31:41.513 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 11:31:41.514 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 11:31:41.517 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-06 11:31:41.518 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 11:31:41.520 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-06 11:31:41.524 +01:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2025-03-06 11:31:41.527 +01:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2025-03-06 11:31:41.531 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-03-06 11:31:41.534 +01:00 [DBG] No information found on request to perform content negotiation.
+2025-03-06 11:31:41.535 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-06 11:31:41.536 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-06 11:31:41.538 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-06 11:31:41.541 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.CityDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-06 11:31:41.622 +01:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 98.4069ms
+2025-03-06 11:31:41.626 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-03-06 11:31:41.627 +01:00 [DBG] Connection id "0HNASJ8AQ4ICN" completed keep alive response.
+2025-03-06 11:31:41.629 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5210/api/cities - 200 1060 application/json; charset=utf-8 180.9582ms
+2025-03-06 11:31:51.309 +01:00 [DBG] Connection id "0HNASJ8AQ4ICO" accepted.
+2025-03-06 11:31:51.310 +01:00 [DBG] Connection id "0HNASJ8AQ4ICO" received FIN.
+2025-03-06 11:31:51.311 +01:00 [DBG] Connection id "0HNASJ8AQ4ICO" started.
+2025-03-06 11:31:51.312 +01:00 [DBG] Connection id "0HNASJ8AQ4ICP" accepted.
+2025-03-06 11:31:51.314 +01:00 [DBG] Connection id "0HNASJ8AQ4ICO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:31:51.315 +01:00 [DBG] Connection id "0HNASJ8AQ4ICP" started.
+2025-03-06 11:31:51.317 +01:00 [DBG] Connection id "0HNASJ8AQ4ICO" disconnecting.
+2025-03-06 11:31:51.320 +01:00 [DBG] Connection id "0HNASJ8AQ4ICO" stopped.
+2025-03-06 11:31:51.323 +01:00 [DBG] Connection id "0HNASJ8AQ4ICP" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-03-06 11:31:51.336 +01:00 [DBG] Connection id "0HNASJ8AQ4ICP" disconnecting.
+2025-03-06 11:31:51.337 +01:00 [DBG] Connection id "0HNASJ8AQ4ICP" received FIN.
+2025-03-06 11:31:51.337 +01:00 [DBG] Connection id "0HNASJ8AQ4ICP" stopped.
+2025-03-06 11:31:51.340 +01:00 [DBG] Connection id "0HNASJ8AQ4ICP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:31:58.132 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5210/api/cities/1/pointsofinterest/2 - null null
+2025-03-06 11:31:58.137 +01:00 [DBG] DELETE requests are not supported
+2025-03-06 11:31:58.140 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:31:58.142 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/PointsOfInterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:31:58.146 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:31:58.148 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:31:58.158 +01:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-03-06 11:31:58.160 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 11:31:58.162 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 11:31:58.164 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-06 11:31:58.166 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 11:31:58.167 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-06 11:31:58.169 +01:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-03-06 11:31:58.175 +01:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 6.4837ms
+2025-03-06 11:31:58.178 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:31:58.179 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'mailService')
+   at CityInfo.API.Controllers.PointsOfInterestController..ctor(ILogger`1 logger, LocalMailService mailService) in D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API\Controllers\PointsOfInterestController.cs:line 18
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-06 11:31:58.228 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-03-06 11:31:58.230 +01:00 [DBG] No information found on request to perform content negotiation.
+2025-03-06 11:31:58.231 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2025-03-06 11:31:58.234 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-03-06 11:31:58.249 +01:00 [DBG] Connection id "0HNASJ8AQ4ICN" completed keep alive response.
+2025-03-06 11:31:58.251 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5210/api/cities/1/pointsofinterest/2 - 500 268 application/problem+json; charset=utf-8 119.1851ms
+2025-03-06 11:33:34.792 +01:00 [INF] Application is shutting down...
+2025-03-06 11:33:34.792 +01:00 [DBG] Hosting stopping
+2025-03-06 11:33:34.798 +01:00 [DBG] Connection id "0HNASJ8AQ4ICN" disconnecting.
+2025-03-06 11:33:34.801 +01:00 [DBG] Connection id "0HNASJ8AQ4ICN" stopped.
+2025-03-06 11:33:34.802 +01:00 [DBG] Connection id "0HNASJ8AQ4ICN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:33:34.807 +01:00 [DBG] Hosting stopped
+2025-03-06 11:33:50.664 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:33:50.728 +01:00 [DBG] Hosting starting
+2025-03-06 11:33:50.763 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:33:50.765 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:33:50.767 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:33:50.767 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:33:50.768 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:33:50.769 +01:00 [DBG] Hosting started
+2025-03-06 11:34:05.709 +01:00 [DBG] Connection id "0HNASJ9LQ7J5B" received FIN.
+2025-03-06 11:34:05.715 +01:00 [DBG] Connection id "0HNASJ9LQ7J5B" accepted.
+2025-03-06 11:34:05.716 +01:00 [DBG] Connection id "0HNASJ9LQ7J5B" started.
+2025-03-06 11:34:05.717 +01:00 [DBG] Connection id "0HNASJ9LQ7J5C" accepted.
+2025-03-06 11:34:05.719 +01:00 [DBG] Connection id "0HNASJ9LQ7J5C" started.
+2025-03-06 11:34:05.727 +01:00 [DBG] Connection id "0HNASJ9LQ7J5B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:34:05.731 +01:00 [DBG] Connection id "0HNASJ9LQ7J5B" disconnecting.
+2025-03-06 11:34:05.732 +01:00 [DBG] Connection id "0HNASJ9LQ7J5B" stopped.
+2025-03-06 11:34:05.744 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5210/api/cities/1/pointsofinterest/2 - null null
+2025-03-06 11:34:05.749 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 11:34:05.761 +01:00 [DBG] DELETE requests are not supported
+2025-03-06 11:34:05.763 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-03-06 11:34:05.781 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:34:05.784 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/PointsOfInterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:34:05.786 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:34:05.792 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:34:05.813 +01:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-03-06 11:34:05.816 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 11:34:05.818 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 11:34:05.821 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-06 11:34:05.823 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 11:34:05.825 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-06 11:34:05.830 +01:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-03-06 11:34:05.834 +01:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 3.2984ms
+2025-03-06 11:34:05.837 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:34:05.839 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'mailService')
+   at CityInfo.API.Controllers.PointsOfInterestController..ctor(ILogger`1 logger, LocalMailService mailService) in D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API\Controllers\PointsOfInterestController.cs:line 18
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-06 11:34:05.884 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-03-06 11:34:05.888 +01:00 [DBG] No information found on request to perform content negotiation.
+2025-03-06 11:34:05.890 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2025-03-06 11:34:05.927 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-03-06 11:34:06.032 +01:00 [DBG] Connection id "0HNASJ9LQ7J5C" completed keep alive response.
+2025-03-06 11:34:06.035 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5210/api/cities/1/pointsofinterest/2 - 500 268 application/problem+json; charset=utf-8 293.8594ms
+2025-03-06 11:36:16.959 +01:00 [DBG] Connection id "0HNASJ9LQ7J5C" disconnecting.
+2025-03-06 11:36:16.966 +01:00 [DBG] Connection id "0HNASJ9LQ7J5C" stopped.
+2025-03-06 11:36:16.967 +01:00 [DBG] Connection id "0HNASJ9LQ7J5C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:38:10.062 +01:00 [INF] Application is shutting down...
+2025-03-06 11:38:10.063 +01:00 [DBG] Hosting stopping
+2025-03-06 11:38:10.071 +01:00 [DBG] Hosting stopped
+2025-03-06 11:38:14.773 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:38:14.840 +01:00 [DBG] Hosting starting
+2025-03-06 11:38:14.873 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:38:14.874 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:38:14.876 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:38:14.878 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:38:14.879 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:38:14.880 +01:00 [DBG] Hosting started
+2025-03-06 11:38:25.151 +01:00 [DBG] Connection id "0HNASJC34F1VU" received FIN.
+2025-03-06 11:38:25.156 +01:00 [DBG] Connection id "0HNASJC34F1VU" accepted.
+2025-03-06 11:38:25.159 +01:00 [DBG] Connection id "0HNASJC34F1VU" started.
+2025-03-06 11:38:25.161 +01:00 [DBG] Connection id "0HNASJC34F1VV" accepted.
+2025-03-06 11:38:25.163 +01:00 [DBG] Connection id "0HNASJC34F1VV" started.
+2025-03-06 11:38:25.166 +01:00 [DBG] Connection id "0HNASJC34F1VU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:38:25.169 +01:00 [DBG] Connection id "0HNASJC34F1VU" disconnecting.
+2025-03-06 11:38:25.171 +01:00 [DBG] Connection id "0HNASJC34F1VU" stopped.
+2025-03-06 11:38:25.182 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5210/api/cities/1/pointsofinterest/2 - null null
+2025-03-06 11:38:25.186 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 11:38:25.199 +01:00 [DBG] DELETE requests are not supported
+2025-03-06 11:38:25.201 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-03-06 11:38:25.219 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:38:25.222 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/PointsOfInterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:38:25.226 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:38:25.231 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:38:25.254 +01:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-03-06 11:38:25.260 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 11:38:25.263 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 11:38:25.312 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-06 11:38:25.315 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 11:38:25.316 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-06 11:38:25.319 +01:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-03-06 11:38:25.335 +01:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 9.3837ms
+2025-03-06 11:38:25.341 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:38:25.344 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'mailService')
+   at CityInfo.API.Controllers.PointsOfInterestController..ctor(ILogger`1 logger, LocalMailService mailService) in D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API\Controllers\PointsOfInterestController.cs:line 18
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-06 11:38:25.383 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-03-06 11:38:25.387 +01:00 [DBG] No information found on request to perform content negotiation.
+2025-03-06 11:38:25.388 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2025-03-06 11:38:25.392 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-03-06 11:38:25.478 +01:00 [DBG] Connection id "0HNASJC34F1VV" completed keep alive response.
+2025-03-06 11:38:25.481 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5210/api/cities/1/pointsofinterest/2 - 500 268 application/problem+json; charset=utf-8 299.6001ms
+2025-03-06 11:38:33.574 +01:00 [INF] Application is shutting down...
+2025-03-06 11:38:33.577 +01:00 [DBG] Hosting stopping
+2025-03-06 11:38:33.597 +01:00 [DBG] Connection id "0HNASJC34F1VV" disconnecting.
+2025-03-06 11:38:33.600 +01:00 [DBG] Connection id "0HNASJC34F1VV" stopped.
+2025-03-06 11:38:33.602 +01:00 [DBG] Connection id "0HNASJC34F1VV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:38:33.608 +01:00 [DBG] Hosting stopped
+2025-03-06 11:38:38.770 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:38:38.837 +01:00 [DBG] Hosting starting
+2025-03-06 11:38:38.870 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:38:38.872 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:38:38.873 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:38:38.874 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:38:38.876 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:38:38.877 +01:00 [DBG] Hosting started
+2025-03-06 11:38:42.577 +01:00 [DBG] Connection id "0HNASJC8AKUGQ" received FIN.
+2025-03-06 11:38:42.583 +01:00 [DBG] Connection id "0HNASJC8AKUGQ" accepted.
+2025-03-06 11:38:42.585 +01:00 [DBG] Connection id "0HNASJC8AKUGQ" started.
+2025-03-06 11:38:42.586 +01:00 [DBG] Connection id "0HNASJC8AKUGR" accepted.
+2025-03-06 11:38:42.588 +01:00 [DBG] Connection id "0HNASJC8AKUGR" started.
+2025-03-06 11:38:42.595 +01:00 [DBG] Connection id "0HNASJC8AKUGQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:38:42.598 +01:00 [DBG] Connection id "0HNASJC8AKUGQ" disconnecting.
+2025-03-06 11:38:42.600 +01:00 [DBG] Connection id "0HNASJC8AKUGQ" stopped.
+2025-03-06 11:38:42.614 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5210/api/cities/1/pointsofinterest/2 - null null
+2025-03-06 11:38:42.618 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 11:38:42.630 +01:00 [DBG] DELETE requests are not supported
+2025-03-06 11:38:42.632 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-03-06 11:38:42.650 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:38:42.654 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/PointsOfInterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/2'
+2025-03-06 11:38:42.655 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:38:42.659 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:38:42.679 +01:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-03-06 11:38:42.683 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 11:38:42.684 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 11:38:42.686 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-06 11:38:42.687 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 11:38:42.688 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-06 11:38:42.692 +01:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-03-06 11:38:42.695 +01:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-03-06 11:38:42.701 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-03-06 11:38:42.703 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-03-06 11:38:42.706 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-03-06 11:38:42.707 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-03-06 11:38:42.708 +01:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-03-06 11:38:42.712 +01:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-03-06 11:38:42.716 +01:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-03-06 11:38:42.718 +01:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2025-03-06 11:38:42.718 +01:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-03-06 11:38:42.720 +01:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-03-06 11:38:42.721 +01:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-03-06 11:38:42.723 +01:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-03-06 11:38:42.731 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-06 11:38:42.736 +01:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 43.8364ms
+2025-03-06 11:38:42.739 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2025-03-06 11:38:42.742 +01:00 [DBG] Connection id "0HNASJC8AKUGR" completed keep alive response.
+2025-03-06 11:38:42.745 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5210/api/cities/1/pointsofinterest/2 - 204 null null 134.6472ms
+2025-03-06 11:39:11.874 +01:00 [INF] Application is shutting down...
+2025-03-06 11:39:11.879 +01:00 [DBG] Hosting stopping
+2025-03-06 11:39:11.901 +01:00 [DBG] Connection id "0HNASJC8AKUGR" disconnecting.
+2025-03-06 11:39:11.904 +01:00 [DBG] Connection id "0HNASJC8AKUGR" stopped.
+2025-03-06 11:39:11.906 +01:00 [DBG] Connection id "0HNASJC8AKUGR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:39:11.913 +01:00 [DBG] Hosting stopped
+2025-03-06 11:41:42.534 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:41:42.600 +01:00 [DBG] Hosting starting
+2025-03-06 11:41:42.636 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:41:42.638 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:41:42.639 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:41:42.640 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:41:42.642 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:41:42.642 +01:00 [DBG] Hosting started
+2025-03-06 11:41:45.412 +01:00 [INF] Application is shutting down...
+2025-03-06 11:41:45.415 +01:00 [DBG] Hosting stopping
+2025-03-06 11:41:45.441 +01:00 [DBG] Hosting stopped
+2025-03-06 11:43:15.786 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:43:15.852 +01:00 [DBG] Hosting starting
+2025-03-06 11:43:15.885 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-06 11:43:15.886 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-03-06 11:43:15.887 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:43:15.888 +01:00 [INF] Hosting environment: Development
+2025-03-06 11:43:15.888 +01:00 [INF] Content root path: D:\Learn .NET\ASP.NET\CityInfo\CityInfo.API
+2025-03-06 11:43:15.888 +01:00 [DBG] Hosting started
+2025-03-06 11:43:49.456 +01:00 [INF] Application is shutting down...
+2025-03-06 11:43:49.460 +01:00 [DBG] Hosting stopping
+2025-03-06 11:43:49.479 +01:00 [DBG] Hosting stopped
