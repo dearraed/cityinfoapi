@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v2
       with:
         registry: https://index.docker.io/v1/
-        username: ${{ secrets.AzureAppService_ContainerUsername_0424ab017aad48199b1f9f2308a7bcc7 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_0e2ab4cceabc4d638131824b122df2ab }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_8e3c3d9d76214279bf30c5faa77106cf }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_9ec2baff28bd4b6b8f876294889e039c }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_0424ab017aad48199b1f9f2308a7bcc7 }}/raedaskware/cityinfoapi:${{ github.sha }}
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_8e3c3d9d76214279bf30c5faa77106cf }}/raedaskware/cityinfoapi:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'cityinfoapi9'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9e4be65aadc44cbc97f3413e9dc79afa }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_0424ab017aad48199b1f9f2308a7bcc7 }}/raedaskware/cityinfoapi:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4ea03e40f681439d9e000d205c6a8a90 }}
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_8e3c3d9d76214279bf30c5faa77106cf }}/raedaskware/cityinfoapi:${{ github.sha }}'
